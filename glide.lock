@@ -1,0 +1,46 @@
+hash: 6c2d1f62cc4b39995f3e962818dffda339d9fb57587a21b31041d3176336d618
+updated: 2017-08-09T01:54:13.80054713+09:00
+imports:
+- name: github.com/antchfx/xpath
+  version: b5c552e1acbdd77b5e369eab0efd1e0f9d7090e4
+- name: github.com/antchfx/xquery
+  version: eb8c3c17260731e52f9420af1508a47bfaf217a8
+  subpackages:
+  - html
+- name: golang.org/x/net
+  version: f5079bd7f6f74e23c4d65efa0f4ce14cbd6a3c0f
+  subpackages:
+  - html
+  - html/atom
+  - html/charset
+- name: golang.org/x/text
+  version: 3bd178b88a8180be2df394a1fbb81313916f0e7b
+  subpackages:
+  - encoding
+  - encoding/charmap
+  - encoding/htmlindex
+  - encoding/internal
+  - encoding/internal/identifier
+  - encoding/japanese
+  - encoding/korean
+  - encoding/simplifiedchinese
+  - encoding/traditionalchinese
+  - encoding/unicode
+  - internal/tag
+  - internal/utf8internal
+  - language
+  - runes
+  - transform
+testImports:
+- name: github.com/davecgh/go-spew
+  version: 6d212800a42e8ab5c146b8ace3490ee17e5225f9
+  subpackages:
+  - spew
+- name: github.com/pmezard/go-difflib
+  version: d8ed2627bdf02c080bf22230dbb337003b7aba2d
+  subpackages:
+  - difflib
+- name: github.com/stretchr/testify
+  version: 69483b4bd14f5845b5a1e55bca19e954e827f1d0
+  subpackages:
+  - assert
